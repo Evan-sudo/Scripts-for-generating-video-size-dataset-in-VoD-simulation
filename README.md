@@ -7,10 +7,10 @@ Python; ffmpeg (with x.264)
 
 ## move.py
 Move videos with different contents from specified quality level into one folder.
-You should modify the "search string" in move.py to select videos of the same quality from the dataset into one folder, which is further used for video segment and chunk size record.
-e.g. 
-target_string1 = "540x384"
-target_string2 = "420_750k"
+You should modify the "search string" in move.py to select videos of the same quality from the dataset into one folder, which is further used for video segment and chunk size record.\\
+e.g. \\
+target_string1 = "540x384" \\
+target_string2 = "420_750k" \\
 destination_folder = ".././video_1"
 specifies to move all videos with quality level "540x384" and "750k" into folder ".././video_1"
 

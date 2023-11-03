@@ -6,4 +6,7 @@ The chunk size file format is compatible to existing simulation environment such
 Python; ffmpeg
 
 ## move.py
-Move videos with different contents from specified quality level into one folder
+Move videos with different contents from specified quality level into one folder.
+
+## chunk.py
+Use ffmpeg prompt to segment the videos for a specified quality level and record its size.
